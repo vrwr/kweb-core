@@ -11,6 +11,15 @@ import io.kweb.state.render.render
 import io.mola.galimatias.URL
 import mu.KotlinLogging
 
+import io.kweb.Kweb
+import io.kweb.dom.element.creation.tags.*
+import io.kweb.dom.element.events.on
+import io.kweb.dom.element.new
+import io.kweb.routing.route
+import io.kweb.state.KVar
+import io.kweb.state.query
+import io.kweb.state.simpleUrlParser
+
 /**
  * @sample testSampleForRouting
  */
@@ -96,4 +105,76 @@ private fun testSampleForRouting() {
             }
         }
     }, jettyConfiguration = {})
+}
+
+
+fun main() {
+    fun main() {
+        Kweb(port = 16097) {
+            doc.body.new {
+                val url = url(simpleUrlParser)
+//            val path = url(simpleUrlParser).path
+                val queryKvar = url(simpleUrlParser).query  // TODO: https://github.com/kwebio/kweb-core/issues/72
+                route {
+                    path("/input/") {
+                        val firstName = KVar<String>("")
+                        val lastName = KVar<String>("")
+                        label().text("Vorname: ")
+                        input(InputType.text, placeholder = "Vorname").setValue(firstName)
+                        div()
+                        label().text("Nachname: ")
+                        input(InputType.text, placeholder = "Nachname").setValue(lastName)
+                        div()
+                        button()
+                                .apply {
+                                    text("Weiter")
+                                    on.click {
+                                        println("Entered: $firstName $lastName")
+//                                println(queryKvar)
+//                                path.value = "/amount/${firstName.value}/${lastName.value}"
+                                        //path.value = "/amount/?firstName=${firstName.value}&lastName=${lastName.value}"
+
+                                        url.value = url.value.withPath("/amount/")
+                                                .withQuery("firstName=${firstName.value}&lastName=${lastName.value}")
+                                        println("Redirecting to ${url.value}")
+                                    }
+                                }
+                    }
+//                path("/amount/{firstName}/{lastName}") { params ->
+                    path("/amount/") { params ->
+                        // val queries = queryParameters()
+                        println("QuerVar: $queryKvar")
+                        val firstName = params["firstName"]?.value ?: "?"
+                        val lastName = params["lastName"]?.value ?: "?"
+
+                        label().text("Kunde: $firstName $lastName")
+                        div()
+                        val beitrag = KVar<String>("0.0")
+                        input(InputType.text, placeholder = "Beitrag").setValue(beitrag)
+
+                        div()
+                        button()
+                                .apply {
+                                    text("Weiter")
+                                    on.click {
+                                        println("$firstName $lastName")
+//                                path.value = "/amount/${firstName}/${lastName}/${beitrag.value}"
+                                    }
+                                }
+                    }
+                    path("/result/{firstName}/{lastName}/{beitrag}") { params ->
+                        // val queries = queryParameters()
+                        val firstName = params["firstName"]
+                        val lastName = params["lastName"]
+                        val beitrag = params["beitrag"]?.value?.toDouble() ?: Double.NaN
+
+                        label().text("Ergebnis: ${beitrag * 2}")
+                    }
+                    notFound {
+                        h1().text("Page not found!")
+                    }
+                }
+            }
+        }
+    }
 }
