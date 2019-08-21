@@ -11,7 +11,6 @@ import io.kweb.state.render.render
 import io.mola.galimatias.URL
 import mu.KotlinLogging
 
-import io.kweb.Kweb
 import io.kweb.dom.element.creation.tags.*
 import io.kweb.dom.element.events.on
 import io.kweb.dom.element.new
@@ -33,7 +32,7 @@ fun ElementCreator<*>.route(routeReceiver: RouteReceiver.() -> Unit) {
     val rr = RouteReceiver(this, url)
     routeReceiver(rr)
     val pathKvar = url.pathSegments
-    val matchingTemplate : KVal<PathTemplate?> = pathKvar.map { path ->
+    val matchingTemplate: KVal<PathTemplate?> = pathKvar.map { path ->
         val size = if (path != listOf("")) path.size else 0
         val templatesOfSameLength = rr.templatesByLength[size]
         val tpl = templatesOfSameLength?.keys?.firstOrNull { tpl ->
@@ -51,13 +50,13 @@ fun ElementCreator<*>.route(routeReceiver: RouteReceiver.() -> Unit) {
             for ((pos, part) in template.withIndex()) {
                 if (part.kind == Parameter) {
                     val str = part.value
-                    parameters[str.substring(str.indexOf('{')+1, str.indexOf('}'))] = pathKvar[pos]
+                    parameters[str.substring(str.indexOf('{') + 1, str.indexOf('}'))] = pathKvar[pos]
                 }
             }
 
             val pathRenderer = rr.templatesByLength[template.size]?.get(template)
 
-            if(pathRenderer != null) {
+            if (pathRenderer != null) {
                 pathRenderer(this, parameters)
             } else {
                 throw RuntimeException("Unable to find pathRenderer for template $template")
@@ -70,22 +69,22 @@ fun ElementCreator<*>.route(routeReceiver: RouteReceiver.() -> Unit) {
 
 
 typealias PathTemplate = List<RoutingPathSegment>
-typealias PathReceiver = ElementCreator<*>.(params : Map<String, KVar<String>>) -> Unit
-typealias NotFoundReceiver = (ElementCreator<*>).(path : String) -> Unit
+typealias PathReceiver = ElementCreator<*>.(params: Map<String, KVar<String>>) -> Unit
+typealias NotFoundReceiver = (ElementCreator<*>).(path: String) -> Unit
 
 class RouteReceiver internal constructor(val parentElementCreator: ElementCreator<*>, val url: KVar<URL>) {
     internal val templatesByLength = HashMap<Int, MutableMap<PathTemplate, PathReceiver>>()
 
-    internal var notFoundReceiver : NotFoundReceiver = { path ->
+    internal var notFoundReceiver: NotFoundReceiver = { path ->
         h1().text("Not Found: $path")
     }
 
-    fun path(template : String, pathReceiver : PathReceiver) {
+    fun path(template: String, pathReceiver: PathReceiver) {
         val routingPath = RoutingPath.parse(template).parts
-        templatesByLength.computeIfAbsent(routingPath.size) {HashMap()}[routingPath]= pathReceiver
+        templatesByLength.computeIfAbsent(routingPath.size) { HashMap() }[routingPath] = pathReceiver
     }
 
-    fun notFound(receiver : NotFoundReceiver) {
+    fun notFound(receiver: NotFoundReceiver) {
         notFoundReceiver = receiver
     }
 }
@@ -104,75 +103,73 @@ private fun testSampleForRouting() {
                 }
             }
         }
-    }, jettyConfiguration = {})
+    })
 }
 
 
 fun main() {
-    fun main() {
-        Kweb(port = 16097) {
-            doc.body.new {
-                val url = url(simpleUrlParser)
+    Kweb(port = 16097) {
+        doc.body.new {
+            val url = url(simpleUrlParser)
 //            val path = url(simpleUrlParser).path
-                val queryKvar = url(simpleUrlParser).query  // TODO: https://github.com/kwebio/kweb-core/issues/72
-                route {
-                    path("/input/") {
-                        val firstName = KVar<String>("")
-                        val lastName = KVar<String>("")
-                        label().text("Vorname: ")
-                        input(InputType.text, placeholder = "Vorname").setValue(firstName)
-                        div()
-                        label().text("Nachname: ")
-                        input(InputType.text, placeholder = "Nachname").setValue(lastName)
-                        div()
-                        button()
-                                .apply {
-                                    text("Weiter")
-                                    on.click {
-                                        println("Entered: $firstName $lastName")
+            val queryKvar = url(simpleUrlParser).query  // TODO: https://github.com/kwebio/kweb-core/issues/72
+            route {
+                path("/input/") {
+                    val firstName = KVar<String>("")
+                    val lastName = KVar<String>("")
+                    label().text("Vorname: ")
+                    input(InputType.text, placeholder = "Vorname").setValue(firstName)
+                    div()
+                    label().text("Nachname: ")
+                    input(InputType.text, placeholder = "Nachname").setValue(lastName)
+                    div()
+                    button()
+                            .apply {
+                                text("Weiter")
+                                on.click {
+                                    println("Entered: $firstName $lastName")
 //                                println(queryKvar)
 //                                path.value = "/amount/${firstName.value}/${lastName.value}"
-                                        //path.value = "/amount/?firstName=${firstName.value}&lastName=${lastName.value}"
+                                    //path.value = "/amount/?firstName=${firstName.value}&lastName=${lastName.value}"
 
-                                        url.value = url.value.withPath("/amount/")
-                                                .withQuery("firstName=${firstName.value}&lastName=${lastName.value}")
-                                        println("Redirecting to ${url.value}")
-                                    }
+                                    url.value = url.value.withPath("/amount/")
+                                            .withQuery("firstName=${firstName.value}&lastName=${lastName.value}")
+                                    println("Redirecting to ${url.value}")
                                 }
-                    }
+                            }
+                }
 //                path("/amount/{firstName}/{lastName}") { params ->
-                    path("/amount/") { params ->
-                        // val queries = queryParameters()
-                        println("QuerVar: $queryKvar")
-                        val firstName = params["firstName"]?.value ?: "?"
-                        val lastName = params["lastName"]?.value ?: "?"
+                path("/amount/") { params ->
+                    // val queries = queryParameters()
+                    println("QuerVar: $queryKvar")
+                    val firstName = params["firstName"]?.value ?: "?"
+                    val lastName = params["lastName"]?.value ?: "?"
 
-                        label().text("Kunde: $firstName $lastName")
-                        div()
-                        val beitrag = KVar<String>("0.0")
-                        input(InputType.text, placeholder = "Beitrag").setValue(beitrag)
+                    label().text("Kunde: $firstName $lastName")
+                    div()
+                    val beitrag = KVar<String>("0.0")
+                    input(InputType.text, placeholder = "Beitrag").setValue(beitrag)
 
-                        div()
-                        button()
-                                .apply {
-                                    text("Weiter")
-                                    on.click {
-                                        println("$firstName $lastName")
+                    div()
+                    button()
+                            .apply {
+                                text("Weiter")
+                                on.click {
+                                    println("$firstName $lastName")
 //                                path.value = "/amount/${firstName}/${lastName}/${beitrag.value}"
-                                    }
                                 }
-                    }
-                    path("/result/{firstName}/{lastName}/{beitrag}") { params ->
-                        // val queries = queryParameters()
-                        val firstName = params["firstName"]
-                        val lastName = params["lastName"]
-                        val beitrag = params["beitrag"]?.value?.toDouble() ?: Double.NaN
+                            }
+                }
+                path("/result/{firstName}/{lastName}/{beitrag}") { params ->
+                    // val queries = queryParameters()
+                    val firstName = params["firstName"]
+                    val lastName = params["lastName"]
+                    val beitrag = params["beitrag"]?.value?.toDouble() ?: Double.NaN
 
-                        label().text("Ergebnis: ${beitrag * 2}")
-                    }
-                    notFound {
-                        h1().text("Page not found!")
-                    }
+                    label().text("Ergebnis: ${beitrag * 2}")
+                }
+                notFound {
+                    h1().text("Page not found!")
                 }
             }
         }
