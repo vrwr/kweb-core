@@ -4,7 +4,7 @@ plugins {
     id 'maven'
     id 'org.jetbrains.dokka' version '0.9.17'
     id 'com.github.johnrengelman.shadow' version '5.0.0'
-    id 'com.gradle.build-scan' version '2.3'
+//    id 'com.gradle.build-scan' version '2.3'
 }
 
 ext {
@@ -103,8 +103,10 @@ shadowJar {
     }
     mergeServiceFiles()
 }
-
+/*
 buildScan {
     termsOfServiceUrl = 'https://gradle.com/terms-of-service'
     termsOfServiceAgree = 'yes'
 }
+
+ */
