@@ -7,6 +7,7 @@ let kwebClientId = "--CLIENT-ID-PLACEHOLDER--";
 let websocketEstablished = false;
 let preWSMsgQueue = [];
 let socket;
+let functionCache = {};
 function handleInboundMessage(msg) {
     console.debug("")
     const yourId = msg["yourId"];
@@ -19,6 +20,14 @@ function handleInboundMessage(msg) {
             kwebClientId
         );
     }
+    const callfunc = msg["callfunc"];
+    if (callfunc !== undefined) {
+        const funcid = callfunc["id"];
+        const funcdef = callfunc["def"];
+        const args = callfunc["args"];
+        const callback = callfunc["args"];
+    }
+
     const execute = msg["execute"];
     if (execute !== undefined) {
         try {
@@ -102,6 +111,8 @@ function handleInboundMessage(msg) {
                 const id = instruction.parameters[0];
                 const text = instruction.parameters[1];
                 document.getElementById(id).textContent = text
+            } else if (instruction.type === "CallFunction") {
+                const id = instruction.parameters[0];
             }
         }
     }

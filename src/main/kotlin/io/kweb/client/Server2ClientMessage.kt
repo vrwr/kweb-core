@@ -18,6 +18,14 @@ data class Server2ClientMessage(
         }
     }
 
+    data class CallFunc(val funcId : String, val func : Func?, val args : List<Any?>, val callbackId : String?)
+
+    data class Func(val argNames : List<String>, val def : String) {
+        companion object {
+            inline fun func(vararg argNames : String, body : () -> String) = Func(argNames.asList(), body.invoke())
+        }
+    }
+
     data class Execute(val js: String)
     data class Evaluate(val js: String, val callbackId: Int)
 }
