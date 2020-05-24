@@ -14,7 +14,7 @@ import kweb.state.KVar
 import kweb.util.KWebDSL
 import kweb.util.escapeEcma
 import kweb.util.random
-import kweb.util.toJson
+import org.apache.commons.text.StringEscapeUtils
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.ConcurrentSkipListSet
 import kotlin.reflect.KClass
@@ -79,22 +79,25 @@ open class Element(override val browser: WebBrowser, val creator: ElementCreator
      * Will be ignored if `value` is `null`.
      */
     fun setAttributeRaw(name: String, value: Any?): Element {
-        if (value != null) {
-            val htmlDoc = browser.htmlDocument.get()
-            when {
-                htmlDoc != null && this.id!= null -> {
-                    htmlDoc.getElementById(this.id).attr(name, value.toString())
-                }
-                canSendInstruction() -> {
-                    browser.send(Server2ClientMessage.Instruction(type = Server2ClientMessage.Instruction.Type.SetAttribute, parameters = listOf(id, name, value)))
-                }
-                else -> {
-                    execute("$jsExpression.setAttribute(\"${name.escapeEcma()}\", ${value.toJson()});")
-                }
+        if (value == null) return this
+        val valueAsJS = when (value) {
+            is String -> "\"${StringEscapeUtils.escapeJson(value)}\""
+            is Number -> value.toString()
+            is Boolean -> value.toString()
+            else -> throw IllegalArgumentException("'value' must be a String, Number, or Boolean, but was a ${value::class.qualifiedName}")
+        }
+        val htmlDoc = browser.htmlDocument.get()
+        when {
+            htmlDoc != null && this.id != null -> {
+                htmlDoc.getElementById(this.id).attr(name, value.toString())
             }
-            if (name == "id") {
-                jsExpression = "document.getElementById(${value.toJson()})"
+            canSendInstruction() -> {
+                browser.send(Server2ClientMessage.Instruction(type = Server2ClientMessage.Instruction.Type.SetAttribute, parameters = listOf(id, name, value)))
             }
+            else -> execute("$jsExpression.setAttribute(\"${name.escapeEcma()}\", $valueAsJS);")
+        }
+        if (name == "id") {
+            jsExpression = "document.getElementById($valueAsJS)"
         }
         return this
     }

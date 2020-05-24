@@ -1,7 +1,8 @@
 package kweb.util
 
-import com.google.gson.Gson
 import io.mola.galimatias.URL
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonConfiguration
 import org.apache.commons.lang3.StringEscapeUtils
 import java.util.*
 import java.util.concurrent.Executors
@@ -13,6 +14,8 @@ import kotlin.reflect.KClass
  * Created by ian on 1/7/17.
  */
 
+val json = Json(JsonConfiguration.Stable)
+
 
 val random = Random()
 
@@ -22,13 +25,9 @@ fun createNonce(length: Int = 6): String {
     return Base64.getUrlEncoder().encodeToString(ar).substring(0, length)
 }
 
-val gson = Gson()
-
 val scheduledExecutorService: ScheduledExecutorService = Executors.newScheduledThreadPool(5)
 
 fun String.escapeEcma() = StringEscapeUtils.escapeEcmaScript(this)!!
-
-fun Any.toJson(): String = gson.toJson(this)
 
 fun <T> warnIfBlocking(maxTimeMs: Long, onBlock: (Thread) -> Unit, f: () -> T): T {
     val runningThread = Thread.currentThread()
