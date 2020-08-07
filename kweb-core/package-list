@@ -1,0 +1,24 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+[jvm root]
+kweb
+kweb.client
+kweb.common
+kweb.demos.todo
+kweb.html
+kweb.html.events
+kweb.html.style
+kweb.https
+kweb.plugins
+kweb.plugins.chartJs
+kweb.plugins.fomanticUI
+kweb.plugins.jqueryCore
+kweb.plugins.specificKeyUp
+kweb.plugins.staticFiles
+kweb.plugins.tablesort
+kweb.plugins.viewport
+kweb.routing
+kweb.state
+kweb.util
+
