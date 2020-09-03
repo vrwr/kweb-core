@@ -14,6 +14,7 @@
     <div id="container">
       <div id="leftColumn">
         <div id="logo"></div>
+        <div id="paneSearch"></div>
         <div id="sideMenu"></div>
       </div>
       <div id="main">
@@ -21,10 +22,10 @@
         <script type="text/javascript" src="../../../../scripts/pages.js"></script>
         <script type="text/javascript" src="../../../../scripts/main.js"></script>
         <div id="content" pageIds="kweb/Kweb.Feature///PointingToDeclaration/">
-          <div class="breadcrumbs">//<a href="../../../index.html">kweb-core</a>/<a href="../../index.html">kweb</a>/<a href="../index.html">Kweb</a>/<a href="index.html">Feature</a></div>
+          <div class="breadcrumbs"><a href="../../../index.html">kweb-core</a>/<a href="../../index.html">kweb</a>/<a href="../index.html">Kweb</a>/<a href="index.html">Feature</a></div>
           <div class="cover ">
-            <h1 class="cover"><a data-name="feature"></a>Feature</h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div class="block"><div class="block">If you have an existing Ktor server, you can use the Kweb class as a feature. Adding this to your code is easy:<div class="sample-container"><code class="paragraph" theme="idea">    install(DefaultHeaders)<br>    install(Compression)<br>    install(WebSockets) {<br>        pingPeriod = Duration.ofSeconds(10)<br>        timeout = Duration.ofSeconds(30)<br>    }<br><br>    install(Kweb) {<br>        // Set debug or plugins here, if you'd like<br>        buildPage = {<br>            // Your app goes here as it would using the Ktor constructor<br>        }<br>    }</code></div></div></div><div class="symbol monospace">object <a href="index.html">Feature</a> : <a href="">ApplicationFeature</a><span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <h1 class="cover"><a data-name="feature"></a><span>Feature</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><p class="paragraph"><p class="paragraph">If you have an existing Ktor server, you can use the Kweb class as a feature. Adding this to your code is easy:</p><div class="sample-container"><code class="" theme="idea"><pre>    install(DefaultHeaders)<br>    install(Compression)<br>    install(WebSockets) {<br>        pingPeriod = Duration.ofSeconds(10)<br>        timeout = Duration.ofSeconds(30)<br>    }<br><br>    install(Kweb) {<br>        // Set debug or plugins here, if you'd like<br>        buildPage = {<br>            // Your app goes here as it would using the Ktor constructor<br>        }<br>    }</pre></code></div></p><div class="symbol monospace">object <a href="index.html">Feature</a> : <span data-unresolved-link="io.ktor.application/ApplicationFeature///PointingToDeclaration/">ApplicationFeature</span>&lt;<span data-unresolved-link="io.ktor.application/Application///PointingToDeclaration/">Application</span>, <a href="-configuration/index.html">Kweb.Feature.Configuration</a>, <a href="../index.html">Kweb</a>&gt; <span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4H15V16H5V4ZM17 7H19V18V20H17H8V18H17V7Z" fill="black"/>
                        </svg></span><div class="copy-popup-wrapper popup-to-left"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18 9C18 14 14 18 9 18C4 18 0 14 0 9C0 4 4 0 9 0C14 0 18 4 18 9ZM14.2 6.2L12.8 4.8L7.5 10.1L5.3 7.8L3.8 9.2L7.5 13L14.2 6.2Z" fill="#4DBB5F"/>
@@ -35,7 +36,7 @@
             <div class="tabs-section-body">
               <h2 class=""><a data-name="seealso"></a>See also</h2>
               <div data-togglable="See also">
-                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div data-togglable="See also"><div class="table" data-togglable="See also"><a data-name="kweb/Kweb.Feature///PointingToDeclaration/"></a><div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main"><div class="platform-dependent-row keyValue"><div>kweb.demos.feature.kwebFeature<div data-togglable="See also">for an example</div></div><div class="title"></div></div></div></div></div></div></div>
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div data-togglable="See also"><div class="table" data-togglable="See also"><a data-name="kweb/Kweb.Feature///PointingToDeclaration/"></a><div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main"><div class="platform-dependent-row keyValue"><div>kweb.demos.feature.kwebFeature<div data-togglable="See also"><p class="paragraph">for an example</p></div></div><div class="title"></div></div></div></div></div></div></div>
               </div>
               <h2 class=""><a data-name="types"></a>Types</h2>
               <div class="table" data-togglable="Types"><a data-name="kweb/Kweb.Feature.Configuration///PointingToDeclaration/"></a>
@@ -134,7 +135,7 @@
 <span class="pull-right"></span></div>
 
   <div class="main-subrow">
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div class="symbol monospace">open override fun <a href="install.html">install</a>(pipeline: <a href="">Application</a>, configure: <a href="-configuration/index.html">Kweb.Feature.Configuration</a>.() -&gt; <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a>): <a href="../index.html">Kweb</a><span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div class="symbol monospace">open override fun <a href="install.html">install</a>(pipeline: <span data-unresolved-link="io.ktor.application/Application///PointingToDeclaration/">Application</span>, configure: <a href="-configuration/index.html">Kweb.Feature.Configuration</a>.() -&gt; <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a>): <a href="../index.html">Kweb</a><span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4H15V16H5V4ZM17 7H19V18V20H17H8V18H17V7Z" fill="black"/>
                        </svg></span><div class="copy-popup-wrapper popup-to-left"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18 9C18 14 14 18 9 18C4 18 0 14 0 9C0 4 4 0 9 0C14 0 18 4 18 9ZM14.2 6.2L12.8 4.8L7.5 10.1L5.3 7.8L3.8 9.2L7.5 13L14.2 6.2Z" fill="#4DBB5F"/>
@@ -185,7 +186,7 @@
                   <div class="platform-dependent-row keyValue">
                     <div></div>
                     <div class="title">
-                      <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div class="symbol monospace">open override val <a href="index.html#kweb/Kweb.Feature/key/#/PointingToDeclaration/">key</a>: <a href="">AttributeKey</a>&lt;<a href="../index.html">Kweb</a>&gt;<span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":/main"><div class="symbol monospace">open override val <a href="index.html#kweb/Kweb.Feature/key/#/PointingToDeclaration/">key</a>: <span data-unresolved-link="io.ktor.util/AttributeKey///PointingToDeclaration/">AttributeKey</span>&lt;<a href="../index.html">Kweb</a>&gt;<span class="top-right-position"><span class="copy-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4H15V16H5V4ZM17 7H19V18V20H17H8V18H17V7Z" fill="black"/>
                        </svg></span><div class="copy-popup-wrapper popup-to-left"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18 9C18 14 14 18 9 18C4 18 0 14 0 9C0 4 4 0 9 0C14 0 18 4 18 9ZM14.2 6.2L12.8 4.8L7.5 10.1L5.3 7.8L3.8 9.2L7.5 13L14.2 6.2Z" fill="#4DBB5F"/>

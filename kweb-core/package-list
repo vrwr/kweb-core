@@ -1,7 +1,6 @@
-$dokka.format:html
+$dokka.format:html-v1
 $dokka.linkExtension:html
 
-[jvm root]
 kweb
 kweb.client
 kweb.common
