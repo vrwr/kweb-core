@@ -7,6 +7,7 @@ kweb.common
 kweb.demos.todo
 kweb.html
 kweb.html.events
+kweb.html.fileUpload
 kweb.html.style
 kweb.https
 kweb.plugins
