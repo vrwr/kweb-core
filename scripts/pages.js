@@ -365,6 +365,7 @@ var pages = [{'name': 'open class AElement(parent: Element) : Element', 'descrip
 {'name': 'fun main()', 'description':'kweb.demos.todo.main', 'location':'kweb-core/kweb.demos.todo/main.html', 'searchKey':'main'},
 {'name': 'fun ElementCreator<Element>.div(attributes: Map<String, Any>): DivElement', 'description':'kweb.div', 'location':'kweb-core/kweb/div.html', 'searchKey':'div'},
 {'name': 'fun ElementCreator<*>.fileInput(name: String?, initialValue: String?, size: Int?, placeholder: String?, attributes: Map<String, Any>): FileFormInput', 'description':'kweb.fileInput', 'location':'kweb-core/kweb/file-input.html', 'searchKey':'fileInput'},
+{'name': 'fun fileReaderSample()', 'description':'kweb.fileReaderSample', 'location':'kweb-core/kweb/file-reader-sample.html', 'searchKey':'fileReaderSample'},
 {'name': 'fun ElementCreator<Element>.form(attributes: Map<String, Any>): FormElement', 'description':'kweb.form', 'location':'kweb-core/kweb/form.html', 'searchKey':'form'},
 {'name': 'fun ElementCreator<Element>.h1(attributes: Map<String, Any>): H1Element', 'description':'kweb.h1', 'location':'kweb-core/kweb/h1.html', 'searchKey':'h1'},
 {'name': 'fun ElementCreator<Element>.h2(attributes: Map<String, Any>): H2Element', 'description':'kweb.h2', 'location':'kweb-core/kweb/h2.html', 'searchKey':'h2'},
