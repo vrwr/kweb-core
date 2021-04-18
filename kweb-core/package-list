@@ -3,6 +3,7 @@ $dokka.linkExtension:html
 
 kweb
 kweb.client
+kweb.config
 kweb.demos.todo
 kweb.html
 kweb.html.events
