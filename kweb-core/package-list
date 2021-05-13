@@ -11,7 +11,6 @@ kweb.html.fileUpload
 kweb.html.style
 kweb.https
 kweb.plugins
-kweb.plugins.chartJs
 kweb.plugins.fomanticUI
 kweb.plugins.jqueryCore
 kweb.plugins.specificKeyUp
