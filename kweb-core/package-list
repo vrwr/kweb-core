@@ -868,6 +868,7 @@ $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlin.Boolean/Point
 $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlin.Number/PointingToDeclaration/kweb-core/kweb/-element/set-attribute-raw.html
 $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/set-attribute-raw.html
 $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlinx.serialization.json.JsonPrimitive/PointingToDeclaration/kweb-core/kweb/-element/set-attribute-raw.html
+$dokka.location:kweb/Element/setAttributes/#kotlin.Array[kotlin.Pair[kotlin.String,kotlinx.serialization.json.JsonPrimitive]]/PointingToDeclaration/kweb-core/kweb/-element/set-attributes.html
 $dokka.location:kweb/Element/setClasses/#kotlin.Array[kotlin.String]/PointingToDeclaration/kweb-core/kweb/-element/set-classes.html
 $dokka.location:kweb/Element/spellcheck/#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-element/spellcheck.html
 $dokka.location:kweb/Element/style/#/PointingToDeclaration/kweb-core/kweb/-element/style.html
