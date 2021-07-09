@@ -686,8 +686,12 @@ $dokka.location:kweb.state/ReversibleFunction/invoke/#TypeParam(bounds=[kotlin.A
 $dokka.location:kweb.state/ReversibleFunction/label/#/PointingToDeclaration/kweb-core/kweb.state/-reversible-function/label.html
 $dokka.location:kweb.state/ReversibleFunction/reverse/#TypeParam(bounds=[kotlin.Any?])#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/kweb-core/kweb.state/-reversible-function/reverse.html
 $dokka.location:kweb.util////PointingToDeclaration/kweb-core/kweb.util/index.html
+$dokka.location:kweb.util//combine/kotlin.Pair[kweb.state.KVar[TypeParam(bounds=[kotlin.Any?])],kweb.state.KVar[TypeParam(bounds=[kotlin.Any?])]]#/PointingToDeclaration/kweb-core/kweb.util/combine.html
 $dokka.location:kweb.util//createNonce/#kotlin.Int/PointingToDeclaration/kweb-core/kweb.util/create-nonce.html
 $dokka.location:kweb.util//escapeEcma/kotlin.String#/PointingToDeclaration/kweb-core/kweb.util/escape-ecma.html
+$dokka.location:kweb.util//json/kotlin.Boolean#/PointingToDeclaration/kweb-core/kweb.util/json.html
+$dokka.location:kweb.util//json/kotlin.Number#/PointingToDeclaration/kweb-core/kweb.util/json.html
+$dokka.location:kweb.util//json/kotlin.String#/PointingToDeclaration/kweb-core/kweb.util/json.html
 $dokka.location:kweb.util//pathQueryFragment/io.mola.galimatias.URL#/PointingToDeclaration/kweb-core/kweb.util/path-query-fragment.html
 $dokka.location:kweb.util//pkg/kotlin.reflect.KClass[TypeParam(bounds=[kotlin.Any])]#/PointingToDeclaration/kweb-core/kweb.util/pkg.html
 $dokka.location:kweb.util//pruneAndDumpStackTo/kotlin.Array[java.lang.StackTraceElement]#java.lang.StringBuilder/PointingToDeclaration/kweb-core/kweb.util/prune-and-dump-stack-to.html
@@ -718,7 +722,6 @@ $dokka.location:kweb//button/kweb.ElementCreator[kweb.Element]#kotlin.collection
 $dokka.location:kweb//canvas/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.Int#kotlin.Int#kotlin.Function1[kweb.ElementCreator[kweb.CanvasElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb/canvas.html
 $dokka.location:kweb//classes/kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.Array[kotlin.String]#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/classes.html
 $dokka.location:kweb//classes/kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.collections.Iterable[kotlin.String]#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/classes.html
-$dokka.location:kweb//combine/kotlin.Pair[kweb.state.KVar[TypeParam(bounds=[kotlin.Any?])],kweb.state.KVar[TypeParam(bounds=[kotlin.Any?])]]#/PointingToDeclaration/kweb-core/kweb/combine.html
 $dokka.location:kweb//disabled/kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#/PointingToDeclaration/kweb-core/kweb/disabled.html
 $dokka.location:kweb//div/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.Function1[kweb.ElementCreator[kweb.DivElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb/div.html
 $dokka.location:kweb//fileInput/kweb.ElementCreator[*]#kotlin.String?#kotlin.String?#kotlin.Int?#kotlin.String?#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/file-input.html
