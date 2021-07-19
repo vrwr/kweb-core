@@ -863,7 +863,7 @@ $dokka.location:kweb/Element/removeClasses/#kotlin.Array[kotlin.String]#kotlin.B
 $dokka.location:kweb/Element/setAttribute/#kotlin.String#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
 $dokka.location:kweb/Element/setAttribute/#kotlin.String#kotlin.Number/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
 $dokka.location:kweb/Element/setAttribute/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
-$dokka.location:kweb/Element/setAttribute/#kotlin.String#kotlinx.serialization.json.JsonPrimitive/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
+$dokka.location:kweb/Element/setAttribute/#kotlin.String#kotlinx.serialization.json.JsonPrimitive#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
 $dokka.location:kweb/Element/setAttribute/#kotlin.String#kweb.state.KVal[kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/-element/set-attribute.html
 $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-element/set-attribute-raw.html
 $dokka.location:kweb/Element/setAttributeRaw/#kotlin.String#kotlin.Number/PointingToDeclaration/kweb-core/kweb/-element/set-attribute-raw.html
@@ -882,7 +882,7 @@ $dokka.location:kweb/ElementCreator///PointingToDeclaration/kweb-core/kweb/-ele
 $dokka.location:kweb/ElementCreator/ElementCreator/#TypeParam(bounds=[kweb.Element])#kweb.ElementCreator[*]?#kotlin.Int?/PointingToDeclaration/kweb-core/kweb/-element-creator/-element-creator.html
 $dokka.location:kweb/ElementCreator/browser/#/PointingToDeclaration/kweb-core/kweb/-element-creator/browser.html
 $dokka.location:kweb/ElementCreator/cleanup/#/PointingToDeclaration/kweb-core/kweb/-element-creator/cleanup.html
-$dokka.location:kweb/ElementCreator/element/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/-element-creator/element.html
+$dokka.location:kweb/ElementCreator/element/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-element-creator/element.html
 $dokka.location:kweb/ElementCreator/elementsCreatedCount/#/PointingToDeclaration/kweb-core/kweb/-element-creator/elements-created-count.html
 $dokka.location:kweb/ElementCreator/onCleanup/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kweb-core/kweb/-element-creator/on-cleanup.html
 $dokka.location:kweb/ElementCreator/parent/#/PointingToDeclaration/kweb-core/kweb/-element-creator/parent.html
