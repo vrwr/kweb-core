@@ -100,7 +100,7 @@ $dokka.location:kweb.html.events/Event/Event/#kotlin.String#kotlinx.serializatio
 $dokka.location:kweb.html.events/Event/retrieved/#/PointingToDeclaration/kweb-core/kweb.html.events/-event/retrieved.html
 $dokka.location:kweb.html.events/Event/type/#/PointingToDeclaration/kweb-core/kweb.html.events/-event/type.html
 $dokka.location:kweb.html.events/EventGenerator///PointingToDeclaration/kweb-core/kweb.html.events/-event-generator/index.html
-$dokka.location:kweb.html.events/EventGenerator/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-event-generator/add-event-listener.html
+$dokka.location:kweb.html.events/EventGenerator/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Boolean#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-event-generator/add-event-listener.html
 $dokka.location:kweb.html.events/EventGenerator/addImmediateEventCode/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb.html.events/-event-generator/add-immediate-event-code.html
 $dokka.location:kweb.html.events/EventGenerator/browser/#/PointingToDeclaration/kweb-core/kweb.html.events/-event-generator/browser.html
 $dokka.location:kweb.html.events/KeyboardEvent///PointingToDeclaration/kweb-core/kweb.html.events/-keyboard-event/index.html
@@ -192,7 +192,7 @@ $dokka.location:kweb.html.events/OnReceiver.Companion///PointingToDeclaration/k
 $dokka.location:kweb.html.events/OnReceiver.Companion/memberProperties/#kotlin.reflect.KClass[TypeParam(bounds=[kotlin.Any])]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/-companion/member-properties.html
 $dokka.location:kweb.html.events/OnReceiver.Companion/memberPropertiesCache/#/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/-companion/member-properties-cache.html
 $dokka.location:kweb.html.events/OnReceiver///PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/index.html
-$dokka.location:kweb.html.events/OnReceiver/OnReceiver/#TypeParam(bounds=[kweb.html.events.EventGenerator[^]])#kotlin.String?/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/-on-receiver.html
+$dokka.location:kweb.html.events/OnReceiver/OnReceiver/#TypeParam(bounds=[kweb.html.events.EventGenerator[^]])#kotlin.String?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/-on-receiver.html
 $dokka.location:kweb.html.events/OnReceiver/abort/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/abort.html
 $dokka.location:kweb.html.events/OnReceiver/afterprint/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/afterprint.html
 $dokka.location:kweb.html.events/OnReceiver/beforeprint/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/beforeprint.html
@@ -235,6 +235,7 @@ $dokka.location:kweb.html.events/OnReceiver/pagehide/#kotlin.Function1[kweb.html
 $dokka.location:kweb.html.events/OnReceiver/pageshow/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/pageshow.html
 $dokka.location:kweb.html.events/OnReceiver/paste/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/paste.html
 $dokka.location:kweb.html.events/OnReceiver/popstate/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/popstate.html
+$dokka.location:kweb.html.events/OnReceiver/preventDefault/#/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/prevent-default.html
 $dokka.location:kweb.html.events/OnReceiver/reset/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/reset.html
 $dokka.location:kweb.html.events/OnReceiver/resize/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/resize.html
 $dokka.location:kweb.html.events/OnReceiver/scroll/#kotlin.Function1[kweb.html.events.Event,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html.events/-on-receiver/scroll.html
@@ -277,7 +278,7 @@ $dokka.location:kweb.html/BodyElement///PointingToDeclaration/kweb-core/kweb.ht
 $dokka.location:kweb.html/BodyElement/BodyElement/#kweb.WebBrowser#kotlin.String/PointingToDeclaration/kweb-core/kweb.html/-body-element/-body-element.html
 $dokka.location:kweb.html/Document///PointingToDeclaration/kweb-core/kweb.html/-document/index.html
 $dokka.location:kweb.html/Document/Document/#kweb.WebBrowser/PointingToDeclaration/kweb-core/kweb.html/-document/-document.html
-$dokka.location:kweb.html/Document/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html/-document/add-event-listener.html
+$dokka.location:kweb.html/Document/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Boolean#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html/-document/add-event-listener.html
 $dokka.location:kweb.html/Document/addImmediateEventCode/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb.html/-document/add-immediate-event-code.html
 $dokka.location:kweb.html/Document/body/#/PointingToDeclaration/kweb-core/kweb.html/-document/body.html
 $dokka.location:kweb.html/Document/body/#kotlin.Function1[kweb.ElementCreator[kweb.html.BodyElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb.html/-document/body.html
@@ -290,7 +291,7 @@ $dokka.location:kweb.html/Document/head/#/PointingToDeclaration/kweb-core/kweb.
 $dokka.location:kweb.html/Document/head/#kotlin.Function1[kweb.ElementCreator[kweb.html.HeadElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb.html/-document/head.html
 $dokka.location:kweb.html/Document/localStorage/#/PointingToDeclaration/kweb-core/kweb.html/-document/local-storage.html
 $dokka.location:kweb.html/Document/on/#/PointingToDeclaration/kweb-core/kweb.html/-document/on.html
-$dokka.location:kweb.html/Document/on/#kotlin.String/PointingToDeclaration/kweb-core/kweb.html/-document/on.html
+$dokka.location:kweb.html/Document/on/#kotlin.String?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb.html/-document/on.html
 $dokka.location:kweb.html/Document/onImmediate/#/PointingToDeclaration/kweb-core/kweb.html/-document/on-immediate.html
 $dokka.location:kweb.html/Document/receiver/#/PointingToDeclaration/kweb-core/kweb.html/-document/receiver.html
 $dokka.location:kweb.html/Document/sessionStorage/#/PointingToDeclaration/kweb-core/kweb.html/-document/session-storage.html
@@ -332,11 +333,11 @@ $dokka.location:kweb.html/TitleElement///PointingToDeclaration/kweb-core/kweb.h
 $dokka.location:kweb.html/TitleElement/TitleElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb.html/-title-element/-title-element.html
 $dokka.location:kweb.html/Window///PointingToDeclaration/kweb-core/kweb.html/-window/index.html
 $dokka.location:kweb.html/Window/Window/#kweb.WebBrowser/PointingToDeclaration/kweb-core/kweb.html/-window/-window.html
-$dokka.location:kweb.html/Window/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html/-window/add-event-listener.html
+$dokka.location:kweb.html/Window/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Boolean#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.html/-window/add-event-listener.html
 $dokka.location:kweb.html/Window/addImmediateEventCode/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb.html/-window/add-immediate-event-code.html
 $dokka.location:kweb.html/Window/browser/#/PointingToDeclaration/kweb-core/kweb.html/-window/browser.html
 $dokka.location:kweb.html/Window/on/#/PointingToDeclaration/kweb-core/kweb.html/-window/on.html
-$dokka.location:kweb.html/Window/on/#kotlin.String/PointingToDeclaration/kweb-core/kweb.html/-window/on.html
+$dokka.location:kweb.html/Window/on/#kotlin.String?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb.html/-window/on.html
 $dokka.location:kweb.html/Window/onImmediate/#/PointingToDeclaration/kweb-core/kweb.html/-window/on-immediate.html
 $dokka.location:kweb.https////PointingToDeclaration/kweb-core/kweb.https/index.html
 $dokka.location:kweb.https//defaultKeyStore/#/PointingToDeclaration/kweb-core/kweb.https/default-key-store.html
@@ -779,6 +780,7 @@ $dokka.location:kweb//tr/kweb.ElementCreator[kweb.Element]#kotlin.collections.Ma
 $dokka.location:kweb//ul/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.Function1[kweb.ElementCreator[kweb.ULElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb/ul.html
 $dokka.location:kweb/AElement///PointingToDeclaration/kweb-core/kweb/-a-element/index.html
 $dokka.location:kweb/AElement/AElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-a-element/-a-element.html
+$dokka.location:kweb/AElement/href/#/PointingToDeclaration/kweb-core/kweb/-a-element/href.html
 $dokka.location:kweb/AttributeBuilder///PointingToDeclaration/kweb-core/kweb/-attribute-builder/index.html
 $dokka.location:kweb/AttributeBuilder/AttributeBuilder/#/PointingToDeclaration/kweb-core/kweb/-attribute-builder/-attribute-builder.html
 $dokka.location:kweb/BootstrapJs///PointingToDeclaration/kweb-core/kweb/-bootstrap-js/index.html
@@ -828,7 +830,7 @@ $dokka.location:kweb/Element/Element/#kweb.Element/PointingToDeclaration/kweb-c
 $dokka.location:kweb/Element/Element/#kweb.WebBrowser#kweb.ElementCreator[*]?#kotlin.String?#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/-element.html
 $dokka.location:kweb/Element/activate/#/PointingToDeclaration/kweb-core/kweb/-element/activate.html
 $dokka.location:kweb/Element/addClasses/#kotlin.Array[kotlin.String]#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-element/add-classes.html
-$dokka.location:kweb/Element/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb/-element/add-event-listener.html
+$dokka.location:kweb/Element/addEventListener/#kotlin.String#kotlin.collections.Set[kotlin.String]#kotlin.String?#kotlin.Boolean#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]/PointingToDeclaration/kweb-core/kweb/-element/add-event-listener.html
 $dokka.location:kweb/Element/addImmediateEventCode/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/add-immediate-event-code.html
 $dokka.location:kweb/Element/addText/#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/add-text.html
 $dokka.location:kweb/Element/assertPluginLoaded/#kotlin.Array[kotlin.reflect.KClass[kweb.plugins.KwebPlugin]]/PointingToDeclaration/kweb-core/kweb/-element/assert-plugin-loaded.html
@@ -852,7 +854,7 @@ $dokka.location:kweb/Element/id/#/PointingToDeclaration/kweb-core/kweb/-element
 $dokka.location:kweb/Element/innerHTML/#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/inner-h-t-m-l.html
 $dokka.location:kweb/Element/innerHTML/#kweb.state.KVal[kotlin.String]/PointingToDeclaration/kweb-core/kweb/-element/inner-h-t-m-l.html
 $dokka.location:kweb/Element/on/#/PointingToDeclaration/kweb-core/kweb/-element/on.html
-$dokka.location:kweb/Element/on/#kotlin.String/PointingToDeclaration/kweb-core/kweb/-element/on.html
+$dokka.location:kweb/Element/on/#kotlin.String?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-element/on.html
 $dokka.location:kweb/Element/onImmediate/#/PointingToDeclaration/kweb-core/kweb/-element/on-immediate.html
 $dokka.location:kweb/Element/plugin/#kotlin.reflect.KClass[TypeParam(bounds=[kweb.plugins.KwebPlugin])]/PointingToDeclaration/kweb-core/kweb/-element/plugin.html
 $dokka.location:kweb/Element/read/#/PointingToDeclaration/kweb-core/kweb/-element/read.html
