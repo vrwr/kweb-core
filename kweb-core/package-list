@@ -5,9 +5,6 @@ $dokka.location:kweb.client/Client2ServerMessage.C2SCallback///PointingToDeclara
 $dokka.location:kweb.client/Client2ServerMessage.C2SCallback/C2SCallback/#kotlin.Int#kotlinx.serialization.json.JsonElement/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-callback/-c2-s-callback.html
 $dokka.location:kweb.client/Client2ServerMessage.C2SCallback/callbackId/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-callback/callback-id.html
 $dokka.location:kweb.client/Client2ServerMessage.C2SCallback/data/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-callback/data.html
-$dokka.location:kweb.client/Client2ServerMessage.C2SHistoryStateChange///PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-history-state-change/index.html
-$dokka.location:kweb.client/Client2ServerMessage.C2SHistoryStateChange/C2SHistoryStateChange/#kotlin.String/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-history-state-change/-c2-s-history-state-change.html
-$dokka.location:kweb.client/Client2ServerMessage.C2SHistoryStateChange/newState/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-c2-s-history-state-change/new-state.html
 $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage.Error///PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-error-message/-error/index.html
 $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage.Error/Error/#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-error-message/-error/-error.html
 $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage.Error/message/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-error-message/-error/message.html
@@ -17,11 +14,10 @@ $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage/ErrorMessage/#kotl
 $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage/debugToken/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-error-message/debug-token.html
 $dokka.location:kweb.client/Client2ServerMessage.ErrorMessage/error/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-error-message/error.html
 $dokka.location:kweb.client/Client2ServerMessage///PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/index.html
-$dokka.location:kweb.client/Client2ServerMessage/Client2ServerMessage/#kotlin.String#kotlin.Boolean?#kweb.client.Client2ServerMessage.ErrorMessage?#kweb.client.Client2ServerMessage.C2SCallback?#kotlin.Boolean#kweb.client.Client2ServerMessage.C2SHistoryStateChange?/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-client2-server-message.html
+$dokka.location:kweb.client/Client2ServerMessage/Client2ServerMessage/#kotlin.String#kotlin.Boolean?#kweb.client.Client2ServerMessage.ErrorMessage?#kweb.client.Client2ServerMessage.C2SCallback?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/-client2-server-message.html
 $dokka.location:kweb.client/Client2ServerMessage/callback/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/callback.html
 $dokka.location:kweb.client/Client2ServerMessage/error/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/error.html
 $dokka.location:kweb.client/Client2ServerMessage/hello/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/hello.html
-$dokka.location:kweb.client/Client2ServerMessage/historyStateChange/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/history-state-change.html
 $dokka.location:kweb.client/Client2ServerMessage/id/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/id.html
 $dokka.location:kweb.client/Client2ServerMessage/keepalive/#/PointingToDeclaration/kweb-core/kweb.client/-client2-server-message/keepalive.html
 $dokka.location:kweb.client/ClientConnection.Caching///PointingToDeclaration/kweb-core/kweb.client/-client-connection/-caching/index.html
