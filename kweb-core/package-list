@@ -67,9 +67,7 @@ $dokka.location:kweb.config/KwebConfiguration/KwebConfiguration/#/PointingToDecl
 $dokka.location:kweb.config/KwebConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/buildpage-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/faviconIco/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon-ico.html
-$dokka.location:kweb.config/KwebConfiguration/favicon_sample/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon_sample.html
 $dokka.location:kweb.config/KwebConfiguration/robotsTxt/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/robots-txt.html
-$dokka.location:kweb.config/KwebConfiguration/robots_txt_sample/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/robots_txt_sample.html
 $dokka.location:kweb.config/KwebConfiguration/validate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/validate.html
 $dokka.location:kweb.config/KwebDefaultConfiguration///PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/index.html
 $dokka.location:kweb.config/KwebDefaultConfiguration/KwebDefaultConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/-kweb-default-configuration.html
@@ -655,7 +653,6 @@ $dokka.location:kweb.state////PointingToDeclaration/kweb-core/kweb.state/index.
 $dokka.location:kweb.state//closeOnElementCreatorCleanup/kweb.ElementCreator[*]#kweb.state.KVal[*]/PointingToDeclaration/kweb-core/kweb.state/close-on-element-creator-cleanup.html
 $dokka.location:kweb.state//modify/kweb.state.KVar[TypeParam(bounds=[kotlin.Any])]#kotlin.Function1[TypeParam(bounds=[kotlin.Any]),TypeParam(bounds=[kotlin.Any])]/PointingToDeclaration/kweb-core/kweb.state/modify.html
 $dokka.location:kweb.state//notNull/kweb.state.KVar[TypeParam(bounds=[kotlin.Any])?]#TypeParam(bounds=[kotlin.Any])?#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb.state/not-null.html
-$dokka.location:kweb.state//ordered_view_set_sample/#/PointingToDeclaration/kweb-core/kweb.state/ordered_view_set_sample.html
 $dokka.location:kweb.state//property/kweb.state.KVar[TypeParam(bounds=[kotlin.Any?])]#kotlin.reflect.KProperty1[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/kweb-core/kweb.state/property.html
 $dokka.location:kweb.state//render/kweb.ElementCreator[*]#kweb.state.KVal[TypeParam(bounds=[kotlin.Any?])]#kotlin.Function1[kweb.ElementCreator[*],kweb.Element]#kotlin.Function2[kweb.ElementCreator[kweb.Element],TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.state/render.html
 $dokka.location:kweb.state//renderEach/kweb.ElementCreator[TypeParam(bounds=[kweb.Element])]#kweb.shoebox.OrderedViewSet[TypeParam(bounds=[kotlin.Any])]#kotlin.Function2[kweb.ElementCreator[TypeParam(bounds=[kweb.Element])],kweb.state.KVar[TypeParam(bounds=[kotlin.Any])],kotlin.Unit]/PointingToDeclaration/kweb-core/kweb.state/render-each.html
@@ -769,7 +766,6 @@ $dokka.location:kweb//span/kweb.ElementCreator[kweb.Element]#kotlin.collections.
 $dokka.location:kweb//subList/kweb.state.KVal[kotlin.collections.List[TypeParam(bounds=[kotlin.Any])]]#kotlin.Int#kotlin.Int/PointingToDeclaration/kweb-core/kweb/sub-list.html
 $dokka.location:kweb//subList/kweb.state.KVar[kotlin.collections.List[TypeParam(bounds=[kotlin.Any])]]#kotlin.Int#kotlin.Int/PointingToDeclaration/kweb-core/kweb/sub-list.html
 $dokka.location:kweb//table/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/table.html
-$dokka.location:kweb//table_example/#/PointingToDeclaration/kweb-core/kweb/table_example.html
 $dokka.location:kweb//tbody/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/tbody.html
 $dokka.location:kweb//td/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]/PointingToDeclaration/kweb-core/kweb/td.html
 $dokka.location:kweb//textArea/kweb.ElementCreator[kweb.Element]#kotlin.collections.Map[kotlin.String,kotlinx.serialization.json.JsonPrimitive]#kotlin.Function1[kweb.ElementCreator[kweb.TextAreaElement],kotlin.Unit]?/PointingToDeclaration/kweb-core/kweb/text-area.html
@@ -1096,7 +1092,6 @@ $dokka.location:kweb/WebBrowser/batch/#kweb.WebBrowser.CatcherType#kotlin.Functi
 $dokka.location:kweb/WebBrowser/callJsFunction/#kotlin.String#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function.html
 $dokka.location:kweb/WebBrowser/callJsFunctionWithCallback/#kotlin.String#kotlin.Int#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function-with-callback.html
 $dokka.location:kweb/WebBrowser/callJsFunctionWithResult/#kotlin.String#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function-with-result.html
-$dokka.location:kweb/WebBrowser/callJsFunction_sample/#/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function_sample.html
 $dokka.location:kweb/WebBrowser/catchOutbound/#kweb.WebBrowser.CatcherType#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kweb-core/kweb/-web-browser/catch-outbound.html
 $dokka.location:kweb/WebBrowser/doc/#/PointingToDeclaration/kweb-core/kweb/-web-browser/doc.html
 $dokka.location:kweb/WebBrowser/generateId/#/PointingToDeclaration/kweb-core/kweb/-web-browser/generate-id.html
