@@ -1096,6 +1096,7 @@ $dokka.location:kweb/WebBrowser/batch/#kweb.WebBrowser.CatcherType#kotlin.Functi
 $dokka.location:kweb/WebBrowser/callJsFunction/#kotlin.String#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function.html
 $dokka.location:kweb/WebBrowser/callJsFunctionWithCallback/#kotlin.String#kotlin.Int#kotlin.Function1[kotlinx.serialization.json.JsonElement,kotlin.Unit]#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function-with-callback.html
 $dokka.location:kweb/WebBrowser/callJsFunctionWithResult/#kotlin.String#kotlin.Array[kotlinx.serialization.json.JsonElement]/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function-with-result.html
+$dokka.location:kweb/WebBrowser/callJsFunction_sample/#/PointingToDeclaration/kweb-core/kweb/-web-browser/call-js-function_sample.html
 $dokka.location:kweb/WebBrowser/catchOutbound/#kweb.WebBrowser.CatcherType#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kweb-core/kweb/-web-browser/catch-outbound.html
 $dokka.location:kweb/WebBrowser/doc/#/PointingToDeclaration/kweb-core/kweb/-web-browser/doc.html
 $dokka.location:kweb/WebBrowser/generateId/#/PointingToDeclaration/kweb-core/kweb/-web-browser/generate-id.html
