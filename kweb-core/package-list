@@ -66,7 +66,13 @@ $dokka.location:kweb.config/KwebConfiguration///PointingToDeclaration/kweb-core
 $dokka.location:kweb.config/KwebConfiguration/KwebConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/-kweb-configuration.html
 $dokka.location:kweb.config/KwebConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/buildpage-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-timeout.html
+$dokka.location:kweb.config/KwebConfiguration/faviconIco/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon-ico.html
+$dokka.location:kweb.config/KwebConfiguration/robotsTxt/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/robots-txt.html
 $dokka.location:kweb.config/KwebConfiguration/validate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/validate.html
+$dokka.location:kweb.config/KwebDefaultConfiguration///PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/index.html
+$dokka.location:kweb.config/KwebDefaultConfiguration/KwebDefaultConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/-kweb-default-configuration.html
+$dokka.location:kweb.config/KwebDefaultConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/buildpage-timeout.html
+$dokka.location:kweb.config/KwebDefaultConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/client-state-timeout.html
 $dokka.location:kweb.demos.todo////PointingToDeclaration/kweb-core/kweb.demos.todo/index.html
 $dokka.location:kweb.demos.todo//main/#/PointingToDeclaration/kweb-core/kweb.demos.todo/main.html
 $dokka.location:kweb.demos.todo/ToDoState.Item///PointingToDeclaration/kweb-core/kweb.demos.todo/-to-do-state/-item/index.html
