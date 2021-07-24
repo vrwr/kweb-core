@@ -67,7 +67,9 @@ $dokka.location:kweb.config/KwebConfiguration/KwebConfiguration/#/PointingToDecl
 $dokka.location:kweb.config/KwebConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/buildpage-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/faviconIco/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon-ico.html
+$dokka.location:kweb.config/KwebConfiguration/favicon_sample/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon_sample.html
 $dokka.location:kweb.config/KwebConfiguration/robotsTxt/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/robots-txt.html
+$dokka.location:kweb.config/KwebConfiguration/robots_txt_sample/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/robots_txt_sample.html
 $dokka.location:kweb.config/KwebConfiguration/validate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/validate.html
 $dokka.location:kweb.config/KwebDefaultConfiguration///PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/index.html
 $dokka.location:kweb.config/KwebDefaultConfiguration/KwebDefaultConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/-kweb-default-configuration.html
