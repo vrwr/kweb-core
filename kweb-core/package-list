@@ -258,7 +258,7 @@ $dokka.location:kweb.html.fileUpload/FileFormInput/retrieveFile/#kotlin.Function
 $dokka.location:kweb.html.fileUpload/FileFormInput/setAccept/#kotlin.String/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-form-input/set-accept.html
 $dokka.location:kweb.html.fileUpload/FileFormInput/setInputElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-form-input/set-input-element.html
 $dokka.location:kweb.html.fileUpload/FileUpload///PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/index.html
-$dokka.location:kweb.html.fileUpload/FileUpload/FileUpload/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/-file-upload.html
+$dokka.location:kweb.html.fileUpload/FileUpload/FileUpload/#kotlin.String#kotlin.Int#kotlin.String/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/-file-upload.html
 $dokka.location:kweb.html.fileUpload/FileUpload/base64Content/#/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/base64-content.html
 $dokka.location:kweb.html.fileUpload/FileUpload/fileName/#/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/file-name.html
 $dokka.location:kweb.html.fileUpload/FileUpload/fileSize/#/PointingToDeclaration/kweb-core/kweb.html.fileUpload/-file-upload/file-size.html
