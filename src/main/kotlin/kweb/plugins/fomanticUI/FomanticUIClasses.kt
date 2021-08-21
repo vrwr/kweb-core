@@ -917,6 +917,18 @@ class FomanticUIClasses : AttributeBuilder() {
             return this
         }
 
+    val steps: FomanticUIClasses
+        get() {
+            classes("steps")
+            return this
+        }
+
+    val step: FomanticUIClasses
+        get() {
+            classes("step")
+            return this
+        }
+
     val styled: FomanticUIClasses
         get() {
             classes("styled")
