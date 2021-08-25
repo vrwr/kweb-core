@@ -50,11 +50,11 @@ dependencies {
     //////////////////////////////
     // Kotlin library dependencies
     //////////////////////////////
-    compile "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0"
-    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-RC'
-    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.0-RC'
-    compile 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0-RC'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1'
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.1'
+    compile 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2'
 
     ////////////////////
     // Ktor dependencies
