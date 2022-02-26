@@ -65,6 +65,8 @@ $dokka.location:kweb.config////PointingToDeclaration/kweb-core/kweb.config/inde
 $dokka.location:kweb.config/KwebConfiguration///PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/index.html
 $dokka.location:kweb.config/KwebConfiguration/KwebConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/-kweb-configuration.html
 $dokka.location:kweb.config/KwebConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/buildpage-timeout.html
+$dokka.location:kweb.config/KwebConfiguration/clientOfflineBannerStyle/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-offline-banner-style.html
+$dokka.location:kweb.config/KwebConfiguration/clientOfflineBannerTextTemplate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-offline-banner-text-template.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateStatsEnabled/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-stats-enabled.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/faviconIco/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon-ico.html
@@ -786,7 +788,7 @@ $dokka.location:kweb/AElement/href/#/PointingToDeclaration/kweb-core/kweb/-a-el
 $dokka.location:kweb/AttributeBuilder///PointingToDeclaration/kweb-core/kweb/-attribute-builder/index.html
 $dokka.location:kweb/AttributeBuilder/AttributeBuilder/#/PointingToDeclaration/kweb-core/kweb/-attribute-builder/-attribute-builder.html
 $dokka.location:kweb/BootstrapJs///PointingToDeclaration/kweb-core/kweb/-bootstrap-js/index.html
-$dokka.location:kweb/BootstrapJs/hydrate/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-bootstrap-js/hydrate.html
+$dokka.location:kweb/BootstrapJs/hydrate/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-bootstrap-js/hydrate.html
 $dokka.location:kweb/BrElement///PointingToDeclaration/kweb-core/kweb/-br-element/index.html
 $dokka.location:kweb/BrElement/BrElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-br-element/-br-element.html
 $dokka.location:kweb/ButtonElement///PointingToDeclaration/kweb-core/kweb/-button-element/index.html
@@ -1002,6 +1004,7 @@ $dokka.location:kweb/Kweb/callJs/#kotlin.String#kweb.client.FunctionCall#kweb.De
 $dokka.location:kweb/Kweb/clientState/#/PointingToDeclaration/kweb-core/kweb/-kweb/client-state.html
 $dokka.location:kweb/Kweb/close/#/PointingToDeclaration/kweb-core/kweb/-kweb/close.html
 $dokka.location:kweb/Kweb/debug/#/PointingToDeclaration/kweb-core/kweb/-kweb/debug.html
+$dokka.location:kweb/Kweb/determineClientPrefix/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb/-kweb/determine-client-prefix.html
 $dokka.location:kweb/Kweb/kwebConfig/#/PointingToDeclaration/kweb-core/kweb/-kweb/kweb-config.html
 $dokka.location:kweb/Kweb/plugins/#/PointingToDeclaration/kweb-core/kweb/-kweb/plugins.html
 $dokka.location:kweb/Kweb/refreshAllPages/#/PointingToDeclaration/kweb-core/kweb/-kweb/refresh-all-pages.html
@@ -1105,6 +1108,7 @@ $dokka.location:kweb/WebBrowser/isCatchingOutbound/#/PointingToDeclaration/kweb
 $dokka.location:kweb/WebBrowser/kweb/#/PointingToDeclaration/kweb-core/kweb/-web-browser/kweb.html
 $dokka.location:kweb/WebBrowser/outboundMessageCatcher/#/PointingToDeclaration/kweb-core/kweb/-web-browser/outbound-message-catcher.html
 $dokka.location:kweb/WebBrowser/removeCallback/#kotlin.Int/PointingToDeclaration/kweb-core/kweb/-web-browser/remove-callback.html
+$dokka.location:kweb/WebBrowser/sessionId/#/PointingToDeclaration/kweb-core/kweb/-web-browser/session-id.html
 $dokka.location:kweb/WebBrowser/url/#/PointingToDeclaration/kweb-core/kweb/-web-browser/url.html
 $dokka.location:kweb/WebBrowser/window/#/PointingToDeclaration/kweb-core/kweb/-web-browser/window.html
 kweb
