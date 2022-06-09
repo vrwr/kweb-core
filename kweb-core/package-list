@@ -65,8 +65,7 @@ $dokka.location:kweb.config////PointingToDeclaration/kweb-core/kweb.config/inde
 $dokka.location:kweb.config/KwebConfiguration///PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/index.html
 $dokka.location:kweb.config/KwebConfiguration/KwebConfiguration/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/-kweb-configuration.html
 $dokka.location:kweb.config/KwebConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/buildpage-timeout.html
-$dokka.location:kweb.config/KwebConfiguration/clientOfflineBannerStyle/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-offline-banner-style.html
-$dokka.location:kweb.config/KwebConfiguration/clientOfflineBannerTextTemplate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-offline-banner-text-template.html
+$dokka.location:kweb.config/KwebConfiguration/clientOfflineToastTextTemplate/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-offline-toast-text-template.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateStatsEnabled/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-stats-enabled.html
 $dokka.location:kweb.config/KwebConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/client-state-timeout.html
 $dokka.location:kweb.config/KwebConfiguration/faviconIco/#io.ktor.application.ApplicationCall/PointingToDeclaration/kweb-core/kweb.config/-kweb-configuration/favicon-ico.html
@@ -721,6 +720,11 @@ $dokka.location:kweb.state/RenderHandle///PointingToDeclaration/kweb-core/kweb.
 $dokka.location:kweb.state/RenderHandle/RenderHandle/#kweb.state.RenderFragment#kweb.state.KVar[TypeParam(bounds=[kotlin.Any])]/PointingToDeclaration/kweb-core/kweb.state/-render-handle/-render-handle.html
 $dokka.location:kweb.state/RenderHandle/kvar/#/PointingToDeclaration/kweb-core/kweb.state/-render-handle/kvar.html
 $dokka.location:kweb.state/RenderHandle/renderFragment/#/PointingToDeclaration/kweb-core/kweb.state/-render-handle/render-fragment.html
+$dokka.location:kweb.state/RenderSpanNames///PointingToDeclaration/kweb-core/kweb.state/-render-span-names/index.html
+$dokka.location:kweb.state/RenderSpanNames/endMarkerClassName/#/PointingToDeclaration/kweb-core/kweb.state/-render-span-names/end-marker-class-name.html
+$dokka.location:kweb.state/RenderSpanNames/listEndMarkerClassName/#/PointingToDeclaration/kweb-core/kweb.state/-render-span-names/list-end-marker-class-name.html
+$dokka.location:kweb.state/RenderSpanNames/listStartMarkerClassName/#/PointingToDeclaration/kweb-core/kweb.state/-render-span-names/list-start-marker-class-name.html
+$dokka.location:kweb.state/RenderSpanNames/startMarkerClassName/#/PointingToDeclaration/kweb-core/kweb.state/-render-span-names/start-marker-class-name.html
 $dokka.location:kweb.state/ReversibleFunction///PointingToDeclaration/kweb-core/kweb.state/-reversible-function/index.html
 $dokka.location:kweb.state/ReversibleFunction/ReversibleFunction/#kotlin.String/PointingToDeclaration/kweb-core/kweb.state/-reversible-function/-reversible-function.html
 $dokka.location:kweb.state/ReversibleFunction/invoke/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/kweb-core/kweb.state/-reversible-function/invoke.html
@@ -823,7 +827,7 @@ $dokka.location:kweb/AElement/href/#/PointingToDeclaration/kweb-core/kweb/-a-el
 $dokka.location:kweb/AttributeBuilder///PointingToDeclaration/kweb-core/kweb/-attribute-builder/index.html
 $dokka.location:kweb/AttributeBuilder/AttributeBuilder/#/PointingToDeclaration/kweb-core/kweb/-attribute-builder/-attribute-builder.html
 $dokka.location:kweb/BootstrapJs///PointingToDeclaration/kweb-core/kweb/-bootstrap-js/index.html
-$dokka.location:kweb/BootstrapJs/hydrate/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-bootstrap-js/hydrate.html
+$dokka.location:kweb/BootstrapJs/hydrate/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kweb-core/kweb/-bootstrap-js/hydrate.html
 $dokka.location:kweb/BrElement///PointingToDeclaration/kweb-core/kweb/-br-element/index.html
 $dokka.location:kweb/BrElement/BrElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-br-element/-br-element.html
 $dokka.location:kweb/ButtonElement///PointingToDeclaration/kweb-core/kweb/-button-element/index.html
