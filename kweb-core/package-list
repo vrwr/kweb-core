@@ -76,6 +76,13 @@ $dokka.location:kweb.config/KwebDefaultConfiguration/KwebDefaultConfiguration/#/
 $dokka.location:kweb.config/KwebDefaultConfiguration/buildpageTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/buildpage-timeout.html
 $dokka.location:kweb.config/KwebDefaultConfiguration/clientStateStatsEnabled/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/client-state-stats-enabled.html
 $dokka.location:kweb.config/KwebDefaultConfiguration/clientStateTimeout/#/PointingToDeclaration/kweb-core/kweb.config/-kweb-default-configuration/client-state-timeout.html
+$dokka.location:kweb.demos.testPages////PointingToDeclaration/kweb-core/kweb.demos.testPages/index.html
+$dokka.location:kweb.demos.testPages//main/#/PointingToDeclaration/kweb-core/kweb.demos.testPages/main.html
+$dokka.location:kweb.demos.testPages/DiffTestPage///PointingToDeclaration/kweb-core/kweb.demos.testPages/-diff-test-page/index.html
+$dokka.location:kweb.demos.testPages/DiffTestPage/DiffTestPage/#/PointingToDeclaration/kweb-core/kweb.demos.testPages/-diff-test-page/-diff-test-page.html
+$dokka.location:kweb.demos.testPages/DiffTestPage/plugins/#/PointingToDeclaration/kweb-core/kweb.demos.testPages/-diff-test-page/plugins.html
+$dokka.location:kweb.demos.testPages/DiffTestPage/server/#/PointingToDeclaration/kweb-core/kweb.demos.testPages/-diff-test-page/server.html
+$dokka.location:kweb.demos.testPages/DiffTestPage/username/#/PointingToDeclaration/kweb-core/kweb.demos.testPages/-diff-test-page/username.html
 $dokka.location:kweb.demos.todo////PointingToDeclaration/kweb-core/kweb.demos.todo/index.html
 $dokka.location:kweb.demos.todo//main/#/PointingToDeclaration/kweb-core/kweb.demos.todo/main.html
 $dokka.location:kweb.demos.todo/TodoApp.TodoList///PointingToDeclaration/kweb-core/kweb.demos.todo/-todo-app/-todo-list/index.html
@@ -954,7 +961,7 @@ $dokka.location:kweb/IElement/IElement/#kweb.Element/PointingToDeclaration/kweb
 $dokka.location:kweb/ImageElement///PointingToDeclaration/kweb-core/kweb/-image-element/index.html
 $dokka.location:kweb/ImageElement/ImageElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-image-element/-image-element.html
 $dokka.location:kweb/InputElement///PointingToDeclaration/kweb-core/kweb/-input-element/index.html
-$dokka.location:kweb/InputElement/InputElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-input-element/-input-element.html
+$dokka.location:kweb/InputElement/InputElement/#kweb.Element#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-input-element/-input-element.html
 $dokka.location:kweb/InputElement/checked/#kotlin.Boolean/PointingToDeclaration/kweb-core/kweb/-input-element/checked.html
 $dokka.location:kweb/InputElement/element/#/PointingToDeclaration/kweb-core/kweb/-input-element/element.html
 $dokka.location:kweb/InputElement/select/#/PointingToDeclaration/kweb-core/kweb/-input-element/select.html
@@ -1075,7 +1082,7 @@ $dokka.location:kweb/Scheme///PointingToDeclaration/kweb-core/kweb/-scheme/inde
 $dokka.location:kweb/SectionElement///PointingToDeclaration/kweb-core/kweb/-section-element/index.html
 $dokka.location:kweb/SectionElement/SectionElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-section-element/-section-element.html
 $dokka.location:kweb/SelectElement///PointingToDeclaration/kweb-core/kweb/-select-element/index.html
-$dokka.location:kweb/SelectElement/SelectElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-select-element/-select-element.html
+$dokka.location:kweb/SelectElement/SelectElement/#kweb.Element#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-select-element/-select-element.html
 $dokka.location:kweb/SpanElement///PointingToDeclaration/kweb-core/kweb/-span-element/index.html
 $dokka.location:kweb/SpanElement/SpanElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-span-element/-span-element.html
 $dokka.location:kweb/TableElement///PointingToDeclaration/kweb-core/kweb/-table-element/index.html
@@ -1085,7 +1092,7 @@ $dokka.location:kweb/TbodyElement/TbodyElement/#kweb.Element/PointingToDeclarati
 $dokka.location:kweb/TdElement///PointingToDeclaration/kweb-core/kweb/-td-element/index.html
 $dokka.location:kweb/TdElement/TdElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-td-element/-td-element.html
 $dokka.location:kweb/TextAreaElement///PointingToDeclaration/kweb-core/kweb/-text-area-element/index.html
-$dokka.location:kweb/TextAreaElement/TextAreaElement/#kweb.Element/PointingToDeclaration/kweb-core/kweb/-text-area-element/-text-area-element.html
+$dokka.location:kweb/TextAreaElement/TextAreaElement/#kweb.Element#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-text-area-element/-text-area-element.html
 $dokka.location:kweb/TextAreaElement/read/#/PointingToDeclaration/kweb-core/kweb/-text-area-element/read.html
 $dokka.location:kweb/TextAreaElementReader///PointingToDeclaration/kweb-core/kweb/-text-area-element-reader/index.html
 $dokka.location:kweb/TextAreaElementReader/TextAreaElementReader/#kweb.TextAreaElement/PointingToDeclaration/kweb-core/kweb/-text-area-element-reader/-text-area-element-reader.html
@@ -1105,13 +1112,13 @@ $dokka.location:kweb/ValueElement.DiffData/diffString/#/PointingToDeclaration/k
 $dokka.location:kweb/ValueElement.DiffData/postfixOffset/#/PointingToDeclaration/kweb-core/kweb/-value-element/-diff-data/postfix-offset.html
 $dokka.location:kweb/ValueElement.DiffData/prefixEndIndex/#/PointingToDeclaration/kweb-core/kweb/-value-element/-diff-data/prefix-end-index.html
 $dokka.location:kweb/ValueElement///PointingToDeclaration/kweb-core/kweb/-value-element/index.html
-$dokka.location:kweb/ValueElement/ValueElement/#kweb.Element#kotlin.String/PointingToDeclaration/kweb-core/kweb/-value-element/-value-element.html
+$dokka.location:kweb/ValueElement/ValueElement/#kweb.Element#kotlin.String#kotlin.String?/PointingToDeclaration/kweb-core/kweb/-value-element/-value-element.html
 $dokka.location:kweb/ValueElement/element/#/PointingToDeclaration/kweb-core/kweb/-value-element/element.html
 $dokka.location:kweb/ValueElement/getValue/#/PointingToDeclaration/kweb-core/kweb/-value-element/get-value.html
+$dokka.location:kweb/ValueElement/initialValue/#/PointingToDeclaration/kweb-core/kweb/-value-element/initial-value.html
 $dokka.location:kweb/ValueElement/kvarUpdateEvent/#/PointingToDeclaration/kweb-core/kweb/-value-element/kvar-update-event.html
 $dokka.location:kweb/ValueElement/setValue/#kotlin.String/PointingToDeclaration/kweb-core/kweb/-value-element/set-value.html
 $dokka.location:kweb/ValueElement/setValue/#kweb.state.KVal[kotlin.String]/PointingToDeclaration/kweb-core/kweb/-value-element/set-value.html
-$dokka.location:kweb/ValueElement/setValue/#kweb.state.KVar[kotlin.String]#kotlin.String/PointingToDeclaration/kweb-core/kweb/-value-element/set-value.html
 $dokka.location:kweb/ValueElement/value/#/PointingToDeclaration/kweb-core/kweb/-value-element/value.html
 $dokka.location:kweb/ValueElement/valueJsExpression/#/PointingToDeclaration/kweb-core/kweb/-value-element/value-js-expression.html
 $dokka.location:kweb/WebBrowser.CatcherType.EVENT///PointingToDeclaration/kweb-core/kweb/-web-browser/-catcher-type/-e-v-e-n-t/index.html
@@ -1154,6 +1161,7 @@ $dokka.location:kweb/WebBrowser/window/#/PointingToDeclaration/kweb-core/kweb/-
 kweb
 kweb.client
 kweb.config
+kweb.demos.testPages
 kweb.demos.todo
 kweb.html
 kweb.html.events
