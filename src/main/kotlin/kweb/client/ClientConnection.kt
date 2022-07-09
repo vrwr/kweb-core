@@ -1,8 +1,7 @@
 package kweb.client
 
-import io.ktor.http.cio.websocket.Frame
-import io.ktor.http.cio.websocket.Frame.Text
-import io.ktor.http.cio.websocket.WebSocketSession
+import io.ktor.websocket.*
+import io.ktor.websocket.Frame.*
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.launch
