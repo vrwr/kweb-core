@@ -1,11 +1,7 @@
 package kweb
 
-import io.ktor.application.Application
-import io.ktor.application.ApplicationCall
-import io.ktor.application.call
-import io.ktor.application.feature
-import io.ktor.routing.get
-import io.ktor.routing.routing
+import io.ktor.server.application.*
+import io.ktor.server.routing.*
 import kweb.routing.PathReceiver
 
 /**
@@ -33,7 +29,7 @@ fun Application.installKwebOnRemainingRoutes(buildPage: WebBrowser.() -> Unit) {
  * @see kweb.demos.feature.kwebFeature
  */
 suspend fun ApplicationCall.respondKweb(buildPage: WebBrowser.() -> Unit) =
-    application.feature(Kweb).respondKweb(this, buildPage)
+    application.plugin(Kweb).respondKweb(this, buildPage)
 
 /**
  * If you were previously using Kweb routes and you want to switch to Ktor, this is for you.

@@ -1,11 +1,11 @@
 package kweb.plugins.staticFiles
 
-import io.ktor.application.install
-import io.ktor.features.CachingHeaders
-import io.ktor.http.CacheControl
+import io.ktor.http.*
 import io.ktor.http.content.*
-import io.ktor.routing.Route
-import io.ktor.routing.Routing
+import io.ktor.server.application.*
+import io.ktor.server.http.content.*
+import io.ktor.server.plugins.cachingheaders.*
+import io.ktor.server.routing.*
 import kweb.plugins.KwebPlugin
 import java.io.File
 
@@ -42,7 +42,7 @@ class StaticFilesPlugin private constructor(private val servedRoute: String, pri
                 TODO: so that we can set a very long cache time (> 1 year).  For now it defaults
                 TODO: to one hour.
                  */
-                options {
+                options { _, _ ->
                     CachingOptions(CacheControl.MaxAge(maxAgeSeconds = maxCacheAgeSeconds))
                 }
             }
