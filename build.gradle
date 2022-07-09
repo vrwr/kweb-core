@@ -16,6 +16,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '6.1.0'
     id "com.github.ben-manes.versions" version "0.41.0"
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.10'
+    id "maven-publish"
 }
 
 apply plugin: "com.github.ben-manes.versions"
@@ -116,6 +117,23 @@ dokkaHtml {
     dokkaSourceSets {
         configureEach {
             samples.from(files("src/main/kotlin/samples.kt"))
+        }
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "https://maven.pkg.jetbrains.space/vrwr/p/forks/maven"
+            credentials {
+                username = System.getenv "MAVEN_USERNAME"
+                password = System.getenv "MAVEN_PASSWORD"
+            }
         }
     }
 }
