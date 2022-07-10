@@ -16,7 +16,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '6.1.0'
     id "com.github.ben-manes.versions" version "0.41.0"
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.10'
-    id "maven-publish"
+    //id "maven-publish"
 }
 
 apply plugin: "com.github.ben-manes.versions"
@@ -121,6 +121,7 @@ dokkaHtml {
     }
 }
 
+/*
 publishing {
     publications {
         maven(MavenPublication) {
@@ -137,3 +138,4 @@ publishing {
         }
     }
 }
+ */
